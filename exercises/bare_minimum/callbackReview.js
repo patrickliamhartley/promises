@@ -26,10 +26,10 @@ var getStatusCode = function (url, callback) {
     } else {
       callback(null, res.statusCode);
     }
-
   });
   // TODO
 };
+
 
 // Export these functions so we can test them and reuse them in later exercises
 module.exports = {
